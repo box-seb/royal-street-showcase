@@ -28,7 +28,7 @@ const features = [
   { icon: CheckCircle, title: "Fully Fenced & Gated", desc: "Peace of mind with a welcoming, open feel" },
 ];
 
-const gallery = [photoLiving, photo1, photo2, photoExterior, photoBedroom, photoBathroom, photo3, photoGarage, photoBedroom2, photoRwOutdoor];
+const gallery = [photoLiving, photo1, photo2, photoExterior, photoBedroom, photoBathroom, photo3, photoGarage, photoBedroom2];
 
 const Index = () => {
   return (
