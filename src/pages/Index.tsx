@@ -20,12 +20,13 @@ const stats = [
 ];
 
 const features = [
-  { icon: Home, title: "Built 2022", desc: "Modern construction with quality finishes throughout" },
   { icon: CheckCircle, title: "Open-Plan Living", desc: "Relaxed heart of the home where family life unfolds naturally" },
-  { icon: Palmtree, title: "Louvered Roof Outdoor", desc: "Sheltered spot for morning coffees and casual entertaining" },
   { icon: DoorOpen, title: "Private Master Retreat", desc: "Spacious master bedroom with generous double wardrobe, sleek ensuite, and direct deck access" },
+  { icon: KeyRound, title: "Fully Fenced & Gated", desc: "Peace of mind for children and pets, with a welcoming, open feel" },
+  { icon: Palmtree, title: "Outdoor Living", desc: "Louvre-roofed area perfect for year-round morning coffees, relaxed dinners, and hosting friends" },
+  { icon: Car, title: "Everyday Convenience", desc: "Enjoy effortless living with schools, medical services, and supermarkets all just minutes from your doorstep" },
   { icon: Thermometer, title: "Climate Control", desc: "Heat pump and ceiling fans, double glazing throughout" },
-  { icon: KeyRound, title: "Fully Fenced & Gated", desc: "Peace of mind with a welcoming, open feel" },
+  { icon: Home, title: "Built 2022", desc: "Modern construction with quality finishes throughout" },
 ];
 
 const gallery = [photoLiving, photo1, photo2, photoExterior, photoBedroom, photoBathroom, photo3, photoGarage, photoBedroom2];
@@ -111,19 +112,19 @@ const Index = () => {
             <h2 className="mb-6 text-2xl md:text-3xl">About this Home</h2>
             <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
-                Open-plan living forms the heart of the home, creating a relaxed space where family
-                life can unfold naturally. There are three well-proportioned bedrooms and two
-                bathrooms, including a master with ensuite, making mornings easier and weekends slower.
+                Built in 2022 and thoughtfully designed for effortless living, this modern home delivers comfort, practicality, and the kind of simplicity that makes everyday life feel easy.
               </p>
               <p>
-                Step outside to the louvered roof outdoor living area — a sheltered spot for morning
-                coffees, relaxed evenings, and casual entertaining. With great privacy and easy-care
-                grounds, there's more time to enjoy your surroundings and less time spent on upkeep.
+                Light-filled open-plan living forms the heart of the home — a welcoming space where family time, quiet evenings, and casual entertaining all flow naturally. The layout is intuitive and functional, offering three well-proportioned bedrooms and two bathrooms, including a private master suite with ensuite. Whether you're simplifying life or just getting started, the floor plan strikes the right balance between connection and separation.
               </p>
               <p>
-                The fully fenced section with gated entry adds peace of mind, without taking away
-                from the home's open, welcoming feel. Modern, comfortable, and family-friendly — this
-                is a home that makes everyday living feel easy.
+                Step outside to the louvre-roofed outdoor living area — a versatile extension of the home that's perfect for year-round enjoyment. Morning coffees, relaxed dinners, or hosting friends are all effortless here. The fully fenced section with gated entry offers peace of mind for children and pets, while remaining low-maintenance and easy to manage.
+              </p>
+              <p>
+                A double internal-access garage adds everyday convenience and secure storage, and with local schools and a supermarket just moments away, daily errands and school runs are refreshingly simple.
+              </p>
+              <p>
+                Modern, low-maintenance, and move-in ready, this is a home that suits those wanting to downsize without compromise or give their family a secure, easy-care place to grow.
               </p>
             </div>
           </div>
