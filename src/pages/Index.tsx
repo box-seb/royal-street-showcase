@@ -1,9 +1,12 @@
-import { Bed, Bath, Ruler, LandPlot, Car, Calendar, Phone, Mail, ExternalLink, MapPin, Home, CheckCircle } from "lucide-react";
-import heroImg from "@/assets/photo-hero-lg.jpg";
-import photo1 from "@/assets/photo-1-lg.jpg";
-import photo2 from "@/assets/photo-2-lg.jpg";
-import photo3 from "@/assets/photo-3-lg.jpg";
-import photo4 from "@/assets/photo-4-lg.jpg";
+import { Bed, Bath, Ruler, LandPlot, Car, Calendar, Phone, Mail, ExternalLink, MapPin, Home, CheckCircle, Thermometer } from "lucide-react";
+import heroImg from "@/assets/photo-exterior.jpg";
+import photoExterior from "@/assets/photo-exterior.jpg";
+import photoRwHero from "@/assets/rw-hero.jpg";
+import photo1 from "@/assets/photo-gallery-1.jpg";
+import photo2 from "@/assets/photo-gallery-2.jpg";
+import photo3 from "@/assets/photo-gallery-3.jpg";
+import photo4 from "@/assets/photo-gallery-4.jpg";
+import photoRw2 from "@/assets/rw-photo-2.jpg";
 
 const stats = [
   { icon: Bed, label: "Bedrooms", value: "3" },
@@ -17,10 +20,11 @@ const features = [
   { icon: Home, title: "Built 2022", desc: "Modern construction with quality finishes throughout" },
   { icon: CheckCircle, title: "Open-Plan Living", desc: "Relaxed heart of the home where family life unfolds naturally" },
   { icon: CheckCircle, title: "Louvered Roof Outdoor", desc: "Sheltered spot for morning coffees and casual entertaining" },
+  { icon: Thermometer, title: "Climate Control", desc: "Heat pump and ceiling fans, double glazing throughout" },
   { icon: CheckCircle, title: "Fully Fenced & Gated", desc: "Peace of mind with a welcoming, open feel" },
 ];
 
-const gallery = [photo1, photo2, photo3, photo4];
+const gallery = [photoRwHero, photo1, photo2, photoRw2, photo3, photo4];
 
 const Index = () => {
   return (
@@ -29,7 +33,7 @@ const Index = () => {
       <section className="relative h-[70vh] min-h-[480px] overflow-hidden">
         <img
           src={heroImg}
-          alt="4 Royal St Annes Drive, Kamo – modern home exterior"
+          alt="4 Royal St Annes Drive, Kamo – louvered roof outdoor entertaining area"
           className="absolute inset-0 h-full w-full object-cover"
           loading="eager"
         />
@@ -76,9 +80,14 @@ const Index = () => {
 
       {/* Gallery */}
       <section className="mx-auto max-w-6xl px-6 pb-16">
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 md:gap-4">
           {gallery.map((src, i) => (
-            <div key={i} className="group overflow-hidden rounded-lg">
+            <div
+              key={i}
+              className={`group overflow-hidden rounded-lg ${
+                i === 0 ? "col-span-2 row-span-2" : ""
+              }`}
+            >
               <img
                 src={src}
                 alt={`Property photo ${i + 1}`}
