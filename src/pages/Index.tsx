@@ -1,13 +1,15 @@
 import { Bed, Bath, Ruler, LandPlot, Car, Calendar, Phone, Mail, ExternalLink, MapPin, Home, CheckCircle, Thermometer, DoorOpen } from "lucide-react";
-import heroImg from "@/assets/photo-exterior.jpg";
+import heroImg from "@/assets/photo-kitchen.jpg";
 import photoRwHero from "@/assets/rw-hero.jpg";
 import photo1 from "@/assets/photo-gallery-1.jpg";
 import photo2 from "@/assets/photo-gallery-2.jpg";
 import photo3 from "@/assets/photo-gallery-3.jpg";
-import photoKitchen from "@/assets/photo-kitchen.jpg";
+import photoExterior from "@/assets/photo-exterior.jpg";
 import photoBedroom from "@/assets/photo-bedroom.jpg";
 import photoBathroom from "@/assets/photo-bathroom.jpg";
 import photoGarage from "@/assets/photo-garage.jpg";
+import photoLiving from "@/assets/photo-living.jpg";
+import photoBedroom2 from "@/assets/photo-bedroom-2.jpg";
 
 const stats = [
   { icon: Bed, label: "Bedrooms", value: "3" },
@@ -26,7 +28,7 @@ const features = [
   { icon: CheckCircle, title: "Fully Fenced & Gated", desc: "Peace of mind with a welcoming, open feel" },
 ];
 
-const gallery = [photoRwHero, photo1, photo2, photoKitchen, photoBedroom, photoBathroom, photo3, photoGarage];
+const gallery = [photoRwHero, photo1, photo2, photoExterior, photoBedroom, photoBathroom, photo3, photoGarage, photoLiving, photoBedroom2];
 
 const Index = () => {
   return (
