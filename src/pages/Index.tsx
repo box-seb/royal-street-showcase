@@ -1,12 +1,13 @@
-import { Bed, Bath, Ruler, LandPlot, Car, Calendar, Phone, Mail, ExternalLink, MapPin, Home, CheckCircle, Thermometer } from "lucide-react";
+import { Bed, Bath, Ruler, LandPlot, Car, Calendar, Phone, Mail, ExternalLink, MapPin, Home, CheckCircle, Thermometer, DoorOpen } from "lucide-react";
 import heroImg from "@/assets/photo-exterior.jpg";
-import photoExterior from "@/assets/photo-exterior.jpg";
 import photoRwHero from "@/assets/rw-hero.jpg";
 import photo1 from "@/assets/photo-gallery-1.jpg";
 import photo2 from "@/assets/photo-gallery-2.jpg";
 import photo3 from "@/assets/photo-gallery-3.jpg";
-import photo4 from "@/assets/photo-gallery-4.jpg";
-import photoRw2 from "@/assets/rw-photo-2.jpg";
+import photoKitchen from "@/assets/photo-kitchen.jpg";
+import photoBedroom from "@/assets/photo-bedroom.jpg";
+import photoBathroom from "@/assets/photo-bathroom.jpg";
+import photoGarage from "@/assets/photo-garage.jpg";
 
 const stats = [
   { icon: Bed, label: "Bedrooms", value: "3" },
@@ -20,11 +21,12 @@ const features = [
   { icon: Home, title: "Built 2022", desc: "Modern construction with quality finishes throughout" },
   { icon: CheckCircle, title: "Open-Plan Living", desc: "Relaxed heart of the home where family life unfolds naturally" },
   { icon: CheckCircle, title: "Louvered Roof Outdoor", desc: "Sheltered spot for morning coffees and casual entertaining" },
+  { icon: DoorOpen, title: "Private Master Retreat", desc: "Spacious master bedroom with generous double wardrobe, sleek ensuite, and direct deck access" },
   { icon: Thermometer, title: "Climate Control", desc: "Heat pump and ceiling fans, double glazing throughout" },
   { icon: CheckCircle, title: "Fully Fenced & Gated", desc: "Peace of mind with a welcoming, open feel" },
 ];
 
-const gallery = [photoRwHero, photo1, photo2, photoRw2, photo3, photo4];
+const gallery = [photoRwHero, photo1, photo2, photoKitchen, photoBedroom, photoBathroom, photo3, photoGarage];
 
 const Index = () => {
   return (
