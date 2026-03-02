@@ -1,5 +1,5 @@
 import { Bed, Bath, Ruler, LandPlot, Car, Calendar, Phone, Mail, ExternalLink, MapPin, Home, CheckCircle } from "lucide-react";
-import heroImg from "@/assets/photo-hero.jpg";
+import heroImg from "@/assets/photo-hero-lg.jpg";
 import photo1 from "@/assets/photo-1-lg.jpg";
 import photo2 from "@/assets/photo-2-lg.jpg";
 import photo3 from "@/assets/photo-3-lg.jpg";
