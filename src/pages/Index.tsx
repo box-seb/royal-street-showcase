@@ -1,4 +1,4 @@
-import { Bed, Bath, Ruler, LandPlot, Car, Calendar, Phone, Mail, ExternalLink, MapPin, Home, CheckCircle, Thermometer, DoorOpen } from "lucide-react";
+import { Bed, Bath, Ruler, LandPlot, Car, Calendar, Phone, Mail, ExternalLink, MapPin, Home, CheckCircle, Thermometer, DoorOpen, Palmtree, KeyRound } from "lucide-react";
 import heroImg from "@/assets/photo-kitchen.jpg";
 import photoRwOutdoor from "@/assets/rw-outdoor.jpg";
 import photo1 from "@/assets/photo-gallery-1.jpg";
@@ -22,10 +22,10 @@ const stats = [
 const features = [
   { icon: Home, title: "Built 2022", desc: "Modern construction with quality finishes throughout" },
   { icon: CheckCircle, title: "Open-Plan Living", desc: "Relaxed heart of the home where family life unfolds naturally" },
-  { icon: CheckCircle, title: "Louvered Roof Outdoor", desc: "Sheltered spot for morning coffees and casual entertaining" },
+  { icon: Palmtree, title: "Louvered Roof Outdoor", desc: "Sheltered spot for morning coffees and casual entertaining" },
   { icon: DoorOpen, title: "Private Master Retreat", desc: "Spacious master bedroom with generous double wardrobe, sleek ensuite, and direct deck access" },
   { icon: Thermometer, title: "Climate Control", desc: "Heat pump and ceiling fans, double glazing throughout" },
-  { icon: CheckCircle, title: "Fully Fenced & Gated", desc: "Peace of mind with a welcoming, open feel" },
+  { icon: KeyRound, title: "Fully Fenced & Gated", desc: "Peace of mind with a welcoming, open feel" },
 ];
 
 const gallery = [photoLiving, photo1, photo2, photoExterior, photoBedroom, photoBathroom, photo3, photoGarage, photoBedroom2];
@@ -241,12 +241,12 @@ const Index = () => {
         <p>
           Listed by Ray White Whangarei · Listing #WHC38426 ·{" "}
           <a
-            href="https://www.realestate.co.nz/42965957"
+            href="https://rwwhangarei.co.nz/properties/residential-for-sale/whangarei-district/te-kamo-0185/house/3437057"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline"
           >
-            View on realestate.co.nz
+            View on Ray White website
           </a>
         </p>
       </footer>
