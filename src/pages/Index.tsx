@@ -54,7 +54,7 @@ const Index = () => {
             Kamo, Whangarei
           </p>
           <p className="text-2xl font-semibold text-accent-foreground md:text-3xl" style={{ fontFamily: "'DM Sans', sans-serif" }}>
-            Asking Price $789,000
+            Asking Price $769,000
           </p>
         </div>
       </section>
